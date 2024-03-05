@@ -33,9 +33,10 @@ class Homepage extends StatefulWidget {
 class _HomepageState extends State<Homepage> {
   TextEditingController KGcontroller = TextEditingController();
   TextEditingController Feetcontroller = TextEditingController();
-  TextEditingController Inchcontroller = TextEditingController();
+    TextEditingController Inchcontroller = TextEditingController();
+    int a = 5;
   var result = '';
-  @override
+   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey.shade200,
